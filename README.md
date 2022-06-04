@@ -1,4 +1,4 @@
-Background 
+# Background 
 
 In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system anytime.				
 
@@ -14,7 +14,7 @@ Rather than creating a marketing campaign that targets all-new customers, Cyclis
 
 * Cyclistic and the team are interested in analysing the Cyclistic historical bike trip data to identify trends. 
 
-Information about the Code:
+### Some Information about the Code:
 
 * Because the dataset was fairly large, data was pulled in from a hard drive (Named "Jaeger")
 
