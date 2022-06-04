@@ -16,6 +16,8 @@ Rather than creating a marketing campaign that targets all-new customers, Cyclis
 
 ### Information about the Code:
 
-* There are two main files in this analysis. The Cyclistic script and the Geospatial Script. The Cyclistic mainly deals with initial analyses while the Geospatial Script mainly deals with code pertaining to Geospatial analysis. 
+* Because the dataset was fairly large, data was pulled in from a hard drive (Named "Jaeger")
+
+* There are two main files in this analysis. The Cyclistic script and the Geospatial Script. The Cyclistic script mainly deals with initial analyses while the Geospatial Script mainly deals with code pertaining to Geospatial analysis. 
 
 * The main product of the Geospatial script is a CSV file which will later be transferred into tableau for the mapping visualization 
