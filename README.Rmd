@@ -1,3 +1,5 @@
+## Background 
+
 In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system anytime.				
 
 Until now, Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members.	
@@ -11,3 +13,9 @@ Rather than creating a marketing campaign that targets all-new customers, Cyclis
 * In order to do that, however, the marketing analyst team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. 
 
 * Cyclistic and the team are interested in analysing the Cyclistic historical bike trip data to identify trends. 
+
+### Information about the Code:
+
+* There are two main files in this analysis. The Cyclistic script and the Geospatial Script. The Cyclistic mainly deals with initial analyses while the Geospatial Script mainly deals with code pertaining to Geospatial analysis. 
+
+* The main product of the Geospatial script is a CSV file which will later be transferred into tableau for the mapping visualization 
