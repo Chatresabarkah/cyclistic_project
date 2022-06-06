@@ -125,8 +125,7 @@ write.csv(top50es_M_LR,
 springLongride <-  df_clean_raw %>% filter(member_casual == "casual", 
                                  between(endedAt_hour, 10, 14), #Ride length rises between 10-14 hours
                                  between(month, 3, 5), #Ride length rises in the months of spring (between march - may)
-                                 day_str == "Sunday", #Ride length highest on a Sunday
-                                 ride_length > 1200) %>% #Long Ride, defined by rides over 20 minutes
+                                 day_str == "Sunday") %>% #Ride Length Highest on a Sunday
   select(end_station_name, end_lat, end_lng) %>% 
   group_by(end_station_name, end_lat, end_lng) %>% 
   summarise(count = n()) %>% 
