@@ -140,3 +140,30 @@ write.csv(springLongride,
 #Remove unused data
 remove(es_data, ss_data, top50ss_MC, top50ss_C, top50ss_M, 
        top50es_C_LR, top50es_C, top50es_M_LR, top50es_M, top50es_MC, springLongride)
+
+#Routes 
+
+top50routes_C <- df_clean_raw %>% filter(member_casual == "casual") %>% 
+  select(start_station_name, start_lat, start_lng, end_station_name, end_lat, end_lng) %>% 
+  group_by(start_station_name, start_lat, start_lng, end_station_name, end_lat, end_lng) %>% 
+  summarise(count = n()) %>% 
+  arrange(desc(count))
+
+top50routes_C <- top50routes_C[1:50, ]
+
+write.csv(top50routes_C, 
+          file.path(aa_folder, "top50routes_C.csv"),
+          row.names = FALSE)
+
+top50routes_M <- df_clean_raw %>% filter(member_casual == "member") %>% 
+  select(start_station_name, start_lat, start_lng, end_station_name, end_lat, end_lng) %>% 
+  group_by(start_station_name, start_lat, start_lng, end_station_name, end_lat, end_lng) %>% 
+  summarise(count = n()) %>% 
+  arrange(desc(count))
+
+top50routes_M <- top50routes_M[1:50, ]
+
+write.csv(top50routes_M, 
+          file.path(aa_folder, "top50routes_M.csv"),
+          row.names = FALSE)
+
