@@ -18,4 +18,4 @@ Rather than creating a marketing campaign that targets all-new customers, Cyclis
 
 * There are two main files in this analysis. The Cyclistic script and the Geospatial Script. The Cyclistic script mainly deals with initial analyses while the Geospatial Script mainly deals with code pertaining to Geospatial analysis. 
 
-* The main product of the Geospatial script is a CSV file which will later be transferred into tableau for the mapping visualization 
+* The main product of the Geospatial script is a CSV file which will later be transferred into tableau for the mapping visualization. If you want to access the maps, click on this link: https://public.tableau.com/app/profile/chez6207 
