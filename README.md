@@ -4,7 +4,7 @@ In 2016, Cyclistic launched a successful bike-share offering. Since then, the pr
 
 Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. Although the pricing flexibility helps Cyclistic attract more customers, they believe that maximising the number of annual members will be key to future growth. 
 
-Rather than creating a marketing campaign that targets all-new customers, Cyclistic believes there is a very good chance to convert casual riders into members. She notes that casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs.		
+Rather than creating a marketing campaign that targets all-new customers, Cyclistic believes there is a very good chance to convert casual riders into members. They note that casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs.		
 
 * Cyclistic has set a clear goal: Design marketing strategies aimed at converting casual riders into annual members. 
 
